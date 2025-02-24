@@ -29,5 +29,7 @@
 }
 
 #main-content {
-  display: none; /* Nascondi il contenuto principale all'inizio */
-}
+    display: none; /* Nascondi il contenuto principale all'inizio */
+    opacity: 0; /* Imposta l'opacità a 0 per l'animazione */
+    transition: opacity 1s ease-in-out; /* Transizione per l'opacità */
+  }
